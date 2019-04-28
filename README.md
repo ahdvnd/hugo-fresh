@@ -12,22 +12,22 @@ To create a new site using this theme:
 
 ```bash
 # Create site and cd into it
-hugo new site my-site && cd my-site
+hugo new site cbds-site && cd cbds-site
 
 # Clone the Fresh theme
-git clone https://github.com/StefMa/hugo-fresh themes/hugo-fresh
+git clone https://github.com/ahdvnd/hugo-fresh themes/hugo-fresh
 
 # Remove the default config
 rm config.toml
 
 # Fetch the example config
-curl -O https://raw.githubusercontent.com/StefMa/hugo-fresh/master/exampleSite/config.yaml
+curl -O https://raw.githubusercontent.com/ahdvnd/hugo-fresh/master/exampleSite/config.yaml
 
 # Run the site locally
 hugo server
 
 # Open the site in your browser
-open http://localhost:1313
+http://localhost:1313
 ```
 
 ## Customizing your page
